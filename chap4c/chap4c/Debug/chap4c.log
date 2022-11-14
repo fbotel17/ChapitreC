@@ -1,2 +1,4 @@
 ﻿  TP1Exo1.cpp
+c:\users\formation\desktop\chapitrec\chap4c\chap4c\tp1exo1.cpp(15): warning C4305: '=' : troncation de 'double' à 'float'
+c:\users\formation\desktop\chapitrec\chap4c\chap4c\tp1exo1.cpp(16): warning C4305: '=' : troncation de 'double' à 'float'
   chap4c.vcxproj -> C:\Users\formation\Desktop\ChapitreC\chap4c\Debug\TP1Exo1.exe

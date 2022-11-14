@@ -46,5 +46,6 @@ int main()
 	int val[20], nb;
 	saisie(val, &nb);
 	afficher(val, nb);
+
 	return 0;
 }
