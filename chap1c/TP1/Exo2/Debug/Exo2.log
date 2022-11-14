@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\formation\documents\chap1c\tp1\exo2\source.cpp(15): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+  Exo2.vcxproj -> C:\Users\formation\Documents\chap1c\TP1\Debug\Exo2.exe
