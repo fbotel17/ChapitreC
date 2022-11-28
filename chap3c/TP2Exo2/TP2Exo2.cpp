@@ -8,7 +8,7 @@ using namespace std;
 void mot_de_passe(char *mdp)
 {
 	cout << "entrez votre mot de passe : " << endl;
-	for (int i = 0; i < 123456; i++)
+	for (int i = 0; i < 35; i++)
 	{
 		mdp[i] = _getch();
 		if (mdp[i] == 13)
@@ -32,7 +32,7 @@ void affiche_mdp(char *mdp)
 
 int main()
 {
-	char mdp[123456];
+	char mdp[35];
 	char condi;
 	mot_de_passe(mdp);
 	cout << "voulez vous afficher le mot de passe ? (y or n) : " << endl;

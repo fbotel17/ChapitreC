@@ -24,7 +24,6 @@ int indice_min(int *tab, int temp)
 {
 	int i = 0;
 	int place;
-	int temp;
 	int minI = tab[0];
 	while (tab[i] != '\0')
 	{
@@ -43,7 +42,7 @@ int indice_min(int *tab, int temp)
 
 int trier(int *tab, int SIZE)
 {
-	int i, j, tmp;
+	int i =0 , j=0, tmp;
 	while (tab[i] != '\0')
 	{
 		while (tab[i] != '\0')
@@ -74,6 +73,7 @@ int trier(int *tab, int SIZE)
 int main()
 {
 	int tab[20];
+	int temp = 0;
 	int tabTrier[20];
 	lire(tab);
 	indice_min(tab, temp);
