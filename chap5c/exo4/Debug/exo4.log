@@ -1,0 +1,5 @@
+﻿  exo4.cpp
+c:\users\formation\desktop\chapitrec\chap5c\exo4\exo4.cpp(23): warning C4101: 'taille' : variable locale non référencée
+c:\users\formation\desktop\chapitrec\chap5c\exo4\exo4.cpp(22): warning C4101: 'compteur' : variable locale non référencée
+c:\users\formation\desktop\chapitrec\chap5c\exo4\exo4.cpp(20): warning C4101: 'c' : variable locale non référencée
+  exo4.vcxproj -> C:\Users\formation\Desktop\ChapitreC\chap5c\Debug\exo4.exe

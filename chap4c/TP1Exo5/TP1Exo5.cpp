@@ -23,11 +23,11 @@ float *calcul(float aa, float bb, float cc, int *compteur)
 	float *nbSolution = 0;
 	float delta = 0;
 	delta = (bb*bb) - 4 * aa*cc;
-	cout << "delta = " << bb << "^2 - 4 * " << aa << " * " << cc << endl;
-	cout << "delta = " << delta << endl;
+	//cout << "delta = " << bb << "^2 - 4 * " << aa << " * " << cc << endl;
+	//cout << "delta = " << delta << endl;
 	if (delta > 0)
 	{
-		cout << "il y a deux resultats" << endl;
+		//cout << "il y a deux resultats" << endl;
 		float x1 = (-bb - sqrt(delta)) / (2 * aa);
 		float x2 = (-bb + sqrt(delta)) / (2 * aa);
 		nbSolution = (float*)malloc(2 * sizeof(float));
@@ -37,7 +37,7 @@ float *calcul(float aa, float bb, float cc, int *compteur)
 	}
 	else if (delta == 0)
 	{
-		cout << "il y a un resultat" << endl;
+		//cout << "il y a un resultat" << endl;
 		float x0 = -bb / (2 * aa);
 		nbSolution = (float*)malloc(1 * sizeof(float));
 		*nbSolution = x0;
@@ -45,7 +45,7 @@ float *calcul(float aa, float bb, float cc, int *compteur)
 	}
 	if (delta < 0)
 	{
-		cout << "il n'y a aucun résultat" << endl;
+		//cout << "il n'y a aucun résultat" << endl;
 		nbSolution = NULL;
 		*compteur = 0;
 	}
@@ -64,6 +64,8 @@ int main()
 	compteur = (int *)malloc(sizeof(int));
 
 	saisie(a, b, c);
+
+	
 	nbSolution = calcul(*a, *b, *c, compteur);
 
 
@@ -74,8 +76,13 @@ int main()
 		{
 			cout << nbSolution[i]<<" ";
 		}
+		free(nbSolution);
+
 	}
 
-
+	free(a);
+	free(b);
+	free(c);
+	free(compteur);
 
 }
