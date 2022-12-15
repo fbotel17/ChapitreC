@@ -29,7 +29,7 @@ void saisir(noteseninfo * eleve, int * compteur)
 		if (*nom1 = *eleve[i].nom and *prenom1 == *eleve[i].prenom)
 		{
 			cout << "entrez votre notes : ";
-			cin >> eleve[i].note[compteur[i]];
+			cin >> eleve[i].note[compteur[i]];ff
 
 
 		}
