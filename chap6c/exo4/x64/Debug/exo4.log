@@ -1,0 +1,6 @@
+﻿  exo4.cpp
+C:\Users\fbotel\Desktop\ChapitreC\chap6c\exo4\exo4.cpp(56,24): warning C4305: '=' : troncation de 'int' à 'char'
+C:\Users\fbotel\Desktop\ChapitreC\chap6c\exo4\exo4.cpp(56,18): warning C4309: '=' : troncation de valeur de constante
+C:\Users\fbotel\Desktop\ChapitreC\chap6c\exo4\exo4.cpp(57,27): warning C4305: '=' : troncation de 'int' à 'char'
+C:\Users\fbotel\Desktop\ChapitreC\chap6c\exo4\exo4.cpp(57,21): warning C4309: '=' : troncation de valeur de constante
+  exo4.vcxproj -> C:\Users\fbotel\Desktop\ChapitreC\chap6c\x64\Debug\exo4.exe

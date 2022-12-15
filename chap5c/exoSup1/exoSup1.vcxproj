@@ -22,32 +22,52 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{16503937-D25D-448C-AFE9-1297139C9E0E}</ProjectGuid>
     <RootNamespace>exoSup1</RootNamespace>
+<<<<<<< HEAD
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+=======
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+>>>>>>> d3ed1e92b806c9957841dca448987cb89f39dac6
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
+<<<<<<< HEAD
+    <PlatformToolset>v143</PlatformToolset>
+=======
     <PlatformToolset>v141</PlatformToolset>
+>>>>>>> d3ed1e92b806c9957841dca448987cb89f39dac6
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
+<<<<<<< HEAD
+    <PlatformToolset>v143</PlatformToolset>
+=======
     <PlatformToolset>v141</PlatformToolset>
+>>>>>>> d3ed1e92b806c9957841dca448987cb89f39dac6
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
+<<<<<<< HEAD
+    <PlatformToolset>v143</PlatformToolset>
+=======
     <PlatformToolset>v141</PlatformToolset>
+>>>>>>> d3ed1e92b806c9957841dca448987cb89f39dac6
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
+<<<<<<< HEAD
+    <PlatformToolset>v143</PlatformToolset>
+=======
     <PlatformToolset>v141</PlatformToolset>
+>>>>>>> d3ed1e92b806c9957841dca448987cb89f39dac6
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
